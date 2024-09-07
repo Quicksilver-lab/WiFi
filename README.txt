@@ -47,5 +47,6 @@ This app is intended for educational purposes and should only be used to retriev
 ----------------------
 Links:
 ----------------------
+QuickSilver's Website: https://quicksilver-lab.github.io/Quicksilver-lab/about
 QuickSilver's GitHub: https://github.com/Quicksilver-lab
 WiFi Repo: https://github.com/Quicksilver-lab/WiFi
