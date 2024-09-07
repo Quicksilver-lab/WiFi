@@ -35,6 +35,11 @@ Requirements:
 - tkinter (pre-installed with Python)
 - subprocess module (used for running system commands)
 
+Ultenate:
+-----------------
+- See Manually.txt ( To Do it without the need of Installing anything!)
+- Manually.txt()
+
 Disclaimer:
 -----------------
 This app is intended for educational purposes and should only be used to retrieve Wi-Fi passwords for networks you own or have permission to access. Unauthorized access to Wi-Fi networks is illegal.
