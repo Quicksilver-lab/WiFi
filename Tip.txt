@@ -1,0 +1,29 @@
+WiFi Password Viewer Tips
+=========================
+
+If you want to find the password for a Wi-Fi network that your PC is connected to, you can use the following method:
+
+1. **Using Command Prompt (Windows):**
+   - Open Command Prompt as an administrator.
+   - Type the following command to list all saved Wi-Fi profiles:
+     ```
+     netsh wlan show profiles
+     ```
+   - To view the password for a specific network, type the following command, replacing `PROFILE_NAME` with the name of the Wi-Fi profile:
+     ```
+     netsh wlan show profile name="PROFILE_NAME" key=clear
+     ```
+   - Look for the `Key Content` field under `Security settings` to find the Wi-Fi password.
+
+2. **Using the Wi-Fi Password Viewer Application:**
+   - Install Python from https://www.python.org if you don't have it already.
+   - Run the `wifi_password_viewer.py` script using the following command:
+     ```
+     python wifi_password_viewer.py
+     ```
+   - This will display all saved Wi-Fi network names and their passwords in an interactive GUI.
+
+Note:
+-----------------
+These methods only display passwords for Wi-Fi networks saved on your PC. They do not crack or access passwords for networks that are not saved on your system.
+
