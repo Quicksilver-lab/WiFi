@@ -38,7 +38,7 @@ Requirements:
 Ultenate:
 -----------------
 - See Manually.txt ( To Do it without the need of Installing anything!)
-- Manually.txt()
+- Manually.txt(https://github.com/Quicksilver-lab/WiFi/blob/main/Manually.txt)
 
 Disclaimer:
 -----------------
