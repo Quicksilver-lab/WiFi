@@ -1,0 +1,37 @@
+Wi-Fi Password Viewer
+A Secure and Simple Way to Retrieve Your Saved Wi-Fi Passwords!
+-------------------------------------
+
+Created by QuickSilver on Wednesday 4th of September 2024 10:00 AM.
+
+This tutorial will help you view the Wi-Fi passwords saved on your PC using simple commands. Follow the steps below to retrieve them effortlessly!
+
+-------------------------------------
+Steps to View Saved Wi-Fi Passwords:
+-------------------------------------
+
+Step 1: Open Command Prompt as Administrator
+
+1. Press Win + X on your keyboard.
+2. Select Command Prompt (Admin) or Windows Terminal (Admin).
+3. If prompted by User Account Control (UAC), click Yes.
+
+Step 2: List All Saved Wi-Fi Networks
+
+1. In the command prompt window, type the following command:
+    netsh wlan show profiles
+2. Press Enter to view a list of all Wi-Fi networks your PC has connected to.
+
+Step 3: View the Password for a Specific Network
+
+1. To find the password for a specific Wi-Fi network, type the following command. Replace WiFiNetworkName with the name of the network you want the password for:
+    netsh wlan show profile name="WiFiNetworkName" key=clear
+2. Press Enter.
+
+3. Look for the line:
+    Key Content : [Your Wi-Fi Password]
+    This is the saved Wi-Fi password!
+
+-------------------------------------
+Thank Me Later!
+-------------------------------------
